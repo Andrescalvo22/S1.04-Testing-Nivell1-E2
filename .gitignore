@@ -14,7 +14,9 @@ out/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
-
+.idea/
+*.class
+*.iml
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
