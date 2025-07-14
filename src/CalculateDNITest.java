@@ -18,7 +18,6 @@ public class CalculateDNITest {
             "88888888,L",  // 88888888 % 23 = 19 → 'L'
             "99999999,J",  // 99999999 % 23 = 13 → 'J'
     })
-
     void testCalculateDNILetter(int numberDNI, char expectedLetter) {
         assertEquals(expectedLetter, CalculateDNI.calculateLetter(numberDNI));
     }
