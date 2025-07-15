@@ -1,3 +1,7 @@
+## 📄 Description
+
+This project calculates the correct letter for a Spanish DNI (National Identity Document) based on the numeric part of the DNI. The letter is obtained by applying the standard algorithm used in Spain, which involves taking the remainder of the number divided by 23 and mapping it to a specific letter. Then we maka a testing to ensure that it is correct
+
 ## 💻 Technologies Used
 - Java 17
 - JUnit 5
